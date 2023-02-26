@@ -6,16 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.6.347/pdf.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.6.347/pdf.min.js"></script> -->
     <style type="text/css">
         body {
             background-color: #535759;
         }
-
+/*
         #canvases canvas {
             margin: 20px auto;
             display: block;
-        }
+        } */
         #btn {
             padding: 1rem;
             border-radius: 2rem;
@@ -27,10 +27,10 @@
 </head>
 
 <body>
-    <button id="btn" onclick="download()">Click Me TO Download</button>
-    <div id="canvases"></div>
+    <button id="btn" onclick="download()">Zero Two </button>
+    <!--<div id="canvases"></div> -->
     <script>
-        var url = './makima.pdf';
+        /*var url = './makima.pdf';
 
         var pdfjsLib = window['pdfjs-dist/build/pdf'];
         pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.6.347/pdf.worker.js';
@@ -85,9 +85,9 @@
                 var canvas = document.getElementById('canvas_' + i);
                 renderPage(i + 1, canvas);
             }
-        });
+        }); */
         function download() {
-            document.location.href = (url);
+            document.location.href = ("./Presentation1.pptx");
         }
     </script>
 </body>
