@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language }}">
+{{ partial "head.html" . }}
+<body>
+	<h1>{{ .Title }}</h1>
+	<hr>
+	<main>
+		<article>
+			<img id="site-image" src="/assets/pics/wifusama.png" alt="Waifu sama">
+			Welcome to my website. I am computer enthusiast and "kinda programmer" in AniLand.
+			<h2>Recent Posts</h2>
+			{{ partial "recentposts.html" . }}
+			<h2>Projects</h2>
+			<ul>
+				<li><a href="#">Kouosi Tsuamine</a> This page</li>
+			</ul>
+		</article>
+	</main>
+	{{ partial "footer.html" . }}
+</body>
+
+</html>

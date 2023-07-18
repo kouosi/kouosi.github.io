@@ -1,0 +1,9 @@
+<header>
+    <div>
+        <a href="/">
+            🏠 Home
+        </a>
+        <h1>{{ .Title }}</h1>
+		{{- if .Param "taglist" }}{{ partial "taglist.html" . }}{{ end }}
+    </div>
+</header>

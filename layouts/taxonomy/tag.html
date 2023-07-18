@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language }}">
+{{ partial "head.html" . }}
+<body>
+    <header>
+        <div>
+            <a href="/">🏠 Home
+            </a>
+            <h1>tags/{{ .Title }}</h1>
+        </div>
+    </header>
+    <hr>
+    <main>
+        <article>
+            <ul>
+                {{ range .Data.Pages }}
+                <li>
+                    <time datetime="{{ .Date.Format " 2006-01-02T15:04:05Z07:00" }}">
+                    {{- .Date.Format "2006 Jan 02" }}</time> &ndash;
+                    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                </li>
+                {{ end }}
+            </ul>
+        </article>
+    </main>
+    {{ partial "footer.html" . }}
+</body>
+
+</html>

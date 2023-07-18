@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language }}">
+{{ partial "head.html" . }}
+<body>
+{{ partial "header.html" . }}
+	<hr>
+	<main>
+		<article>
+			{{ .Content }}
+			{{ if .Params.nextprev }}{{ partial "nextprev.html" . }}{{ end -}}
+		</article>
+	</main>
+{{ partial "footer.html" . }}
+</body>
+
+</html>

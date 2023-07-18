@@ -1,0 +1,148 @@
+a {
+    color: #00aaff;
+    text-decoration: none;
+    line-height: 1.8;
+    padding: 16px, 16px, 100px, 30px
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+abbr {
+    color: rgb(37, 239, 37);
+}
+
+hr {
+    height: 3px;
+    background: rgb(31, 243, 31);
+}
+
+/* article */
+blockquote {
+    background: #444;
+    padding: 2px;
+    margin:0%;
+}
+
+body {
+    background: #222;
+    color: #eee;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (min-width: 4500px) {
+    body {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    body {
+        margin-left: 20%;
+        margin-right: 20%;
+        font-size: 1.1rem
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        font-size: 1.1rem;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    #site-image {
+        float: right;
+        max-width: 30%;
+        margin-left: 1rem;
+    }
+}
+
+/* cite */
+/* code */
+pre.code {
+    background: #444;
+    overflow: scroll;
+    max-height: 300px;
+}
+
+/* div */
+h1 {
+    color: cyan;
+    text-align: center;
+    font-family: serif;
+}
+
+h2 {
+    color: #22ff22;
+    border-bottom: 1px solid #22ff22;
+}
+
+/* h2 {color: rgb(47, 200, 47);} */
+h3 {
+    color: darkgray;
+}
+
+/* header */
+img {
+    width: 100%;
+    height: max-content;
+}
+
+/* li */
+/* p */
+b,
+em,
+strong,
+i {
+    color: #ffcb76
+}
+
+/* b, strong, i {color: rgb(242, 99, 99);} */
+footer {
+    text-align: center;
+}
+
+.footer-icons {
+    max-height: 1rem;
+    max-width: 1rem;
+    vertical-align: middle;
+}
+
+/* Table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #444444;
+}
+
+tr:hover {
+    background-color: green;
+}
+
+th {
+    padding: 12px 8px 12px 8px;
+    text-align: left;
+    background-color: #0070a8;
+}
+/* video */ 
+iframe,video {width: 100%; height: max-content}
+
+/* Syntex */ .highlight pre{
+    border: 1px solid #888888;
+    background-color: #111 !important;
+    padding: 12px;
+}
+code {white-space:pre-wrap !important;}

@@ -1,0 +1,308 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+	<title>Kouosi Tsuamine</title>
+	<link>localhost:1313/categories/</link>
+	<description>Recent content in Categories on Kouosi Tsuamine</description>
+	<generator>Hugo -- gohugo.io</generator>
+	<language>en-us</language>
+    
+        <atom:link href="localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+	
+	
+	<item>
+		<title>Waifu Sama</title>
+		<link>localhost:1313/posts/waifu-sama/</link>
+		<pubDate>Wed, 28 Jun 2023 17:03:18 +0545</pubDate>
+		
+		<guid>localhost:1313/posts/waifu-sama/</guid>
+		<description>&lt;h2 id=&#34;welcome-to-stackedit&#34;&gt;Welcome to StackEdit!&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Yo&lt;/em&gt;
+Hi! I&amp;rsquo;m your first Markdown file in &lt;strong&gt;StackEdit&lt;/strong&gt;. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the &lt;strong&gt;file explorer&lt;/strong&gt; on the left corner of the navigation bar.&lt;/p&gt;
+&lt;h2 id=&#34;files&#34;&gt;Files&lt;/h2&gt;
+&lt;p&gt;StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible &lt;strong&gt;offline!&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;create-files-and-folders&#34;&gt;Create files and folders&lt;/h2&gt;
+&lt;p&gt;The file explorer is accessible using the button in left corner of the navigation bar. You can create a new file by clicking the &lt;strong&gt;New file&lt;/strong&gt; button in the file explorer. You can also create folders by clicking the &lt;strong&gt;New folder&lt;/strong&gt; button.&lt;/p&gt;
+&lt;h2 id=&#34;switch-to-another-file&#34;&gt;Switch to another file&lt;/h2&gt;
+&lt;p&gt;All your files and folders are presented as a tree in the file explorer. You can switch from one to another by clicking a file in the tree.&lt;/p&gt;
+&lt;h2 id=&#34;rename-a-file&#34;&gt;Rename a file&lt;/h2&gt;
+&lt;p&gt;You can rename the current file by clicking the file name in the navigation bar or by clicking the &lt;strong&gt;Rename&lt;/strong&gt; button in the file explorer.&lt;/p&gt;
+&lt;h2 id=&#34;delete-a-file&#34;&gt;Delete a file&lt;/h2&gt;
+&lt;p&gt;You can delete the current file by clicking the &lt;strong&gt;Remove&lt;/strong&gt; button in the file explorer. The file will be moved into the &lt;strong&gt;Trash&lt;/strong&gt; folder and automatically deleted after 7 days of inactivity.&lt;/p&gt;
+&lt;h2 id=&#34;export-a-file&#34;&gt;Export a file&lt;/h2&gt;
+&lt;p&gt;You can export the current file by clicking &lt;strong&gt;Export to disk&lt;/strong&gt; in the menu. You can choose to export the file as plain Markdown, as HTML using a Handlebars template or as a PDF.&lt;/p&gt;
+&lt;h1 id=&#34;synchronization&#34;&gt;Synchronization&lt;/h1&gt;
+&lt;p&gt;Synchronization is one of the biggest features of StackEdit. It enables you to synchronize any file in your workspace with other files stored in your &lt;strong&gt;Google Drive&lt;/strong&gt;, your &lt;strong&gt;Dropbox&lt;/strong&gt; and your &lt;strong&gt;GitHub&lt;/strong&gt; accounts. This allows you to keep writing on other devices, collaborate with people you share the file with, integrate easily into your workflow&amp;hellip; The synchronization mechanism takes place every minute in the background, downloading, merging, and uploading file modifications.&lt;/p&gt;
+&lt;p&gt;There are two types of synchronization and they can complement each other:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;The workspace synchronization will sync all your files, folders and settings automatically. This will allow you to fetch your workspace on any other device.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;To start syncing your workspace, just sign in with Google in the menu.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The file synchronization will keep one file of the workspace synced with one or multiple files in &lt;strong&gt;Google Drive&lt;/strong&gt;, &lt;strong&gt;Dropbox&lt;/strong&gt; or &lt;strong&gt;GitHub&lt;/strong&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Before starting to sync files, you must link an account in the &lt;strong&gt;Synchronize&lt;/strong&gt; sub-menu.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;open-a-file&#34;&gt;Open a file&lt;/h2&gt;
+&lt;p&gt;You can open a file from &lt;strong&gt;Google Drive&lt;/strong&gt;, &lt;strong&gt;Dropbox&lt;/strong&gt; or &lt;strong&gt;GitHub&lt;/strong&gt; by opening the &lt;strong&gt;Synchronize&lt;/strong&gt; sub-menu and clicking &lt;strong&gt;Open from&lt;/strong&gt;. Once opened in the workspace, any modification in the file will be automatically synced.&lt;/p&gt;
+&lt;h2 id=&#34;save-a-file&#34;&gt;Save a file&lt;/h2&gt;
+&lt;p&gt;You can save any file of the workspace to &lt;strong&gt;Google Drive&lt;/strong&gt;, &lt;strong&gt;Dropbox&lt;/strong&gt; or &lt;strong&gt;GitHub&lt;/strong&gt; by opening the &lt;strong&gt;Synchronize&lt;/strong&gt; sub-menu and clicking &lt;strong&gt;Save on&lt;/strong&gt;. Even if a file in the workspace is already synced, you can save it to another location. StackEdit can sync one file with multiple locations and accounts.&lt;/p&gt;
+&lt;h2 id=&#34;synchronize-a-file&#34;&gt;Synchronize a file&lt;/h2&gt;
+&lt;p&gt;Once your file is linked to a synchronized location, StackEdit will periodically synchronize it by downloading/uploading any modification. A merge will be performed if necessary and conflicts will be resolved.&lt;/p&gt;
+&lt;p&gt;If you just have modified your file and you want to force syncing, click the &lt;strong&gt;Synchronize now&lt;/strong&gt; button in the navigation bar.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; The &lt;strong&gt;Synchronize now&lt;/strong&gt; button is disabled if you have no file to synchronize.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;manage-file-synchronization&#34;&gt;Manage file synchronization&lt;/h2&gt;
+&lt;p&gt;Since one file can be synced with multiple locations, you can list and manage synchronized locations by clicking &lt;strong&gt;File synchronization&lt;/strong&gt; in the &lt;strong&gt;Synchronize&lt;/strong&gt; sub-menu. This allows you to list and remove synchronized locations that are linked to your file.&lt;/p&gt;
+&lt;h2 id=&#34;publication&#34;&gt;Publication&lt;/h2&gt;
+&lt;p&gt;Publishing in StackEdit makes it simple for you to publish online your files. Once you&amp;rsquo;re happy with a file, you can publish it to different hosting platforms like &lt;strong&gt;Blogger&lt;/strong&gt;, &lt;strong&gt;Dropbox&lt;/strong&gt;, &lt;strong&gt;Gist&lt;/strong&gt;, &lt;strong&gt;GitHub&lt;/strong&gt;, &lt;strong&gt;Google Drive&lt;/strong&gt;, &lt;strong&gt;WordPress&lt;/strong&gt; and &lt;strong&gt;Zendesk&lt;/strong&gt;. With &lt;a href=&#34;http://handlebarsjs.com/&#34;&gt;Handlebars templates&lt;/a&gt;, you have full control over what you export.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Before starting to publish, you must link an account in the &lt;strong&gt;Publish&lt;/strong&gt; sub-menu.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;publish-a-file&#34;&gt;Publish a File&lt;/h2&gt;
+&lt;p&gt;You can publish your file by opening the &lt;strong&gt;Publish&lt;/strong&gt; sub-menu and by clicking &lt;strong&gt;Publish to&lt;/strong&gt;. For some locations, you can choose between the following formats:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Markdown: publish the Markdown text on a website that can interpret it (&lt;strong&gt;GitHub&lt;/strong&gt; for instance),&lt;/li&gt;
+&lt;li&gt;HTML: publish the file converted to HTML via a Handlebars template (on a blog for example).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;update-a-publication&#34;&gt;Update a publication&lt;/h2&gt;
+&lt;p&gt;After publishing, StackEdit keeps your file linked to that publication which makes it easy for you to re-publish it. Once you have modified your file and you want to update your publication, click on the &lt;strong&gt;Publish now&lt;/strong&gt; button in the navigation bar.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; The &lt;strong&gt;Publish now&lt;/strong&gt; button is disabled if your file has not been published yet.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;manage-file-publication&#34;&gt;Manage file publication&lt;/h2&gt;
+&lt;p&gt;Since one file can be published to multiple locations, you can list and manage publish locations by clicking &lt;strong&gt;File publication&lt;/strong&gt; in the &lt;strong&gt;Publish&lt;/strong&gt; sub-menu. This allows you to list and remove publication locations that are linked to your file.&lt;/p&gt;
+&lt;h2 id=&#34;markdown-extensions&#34;&gt;Markdown extensions&lt;/h2&gt;
+&lt;p&gt;StackEdit extends the standard Markdown syntax by adding extra &lt;strong&gt;Markdown extensions&lt;/strong&gt;, providing you with some nice features.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;ProTip:&lt;/strong&gt; You can disable any &lt;strong&gt;Markdown extension&lt;/strong&gt; in the &lt;strong&gt;File properties&lt;/strong&gt; dialog.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;code&#34;&gt;Code&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Fuck 
+sldkfj
+&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;if this is it
+&lt;/code&gt;&lt;/pre&gt;</description>
+	</item>
+	
+	<item>
+		<title>Syntax Highlighting Test</title>
+		<link>localhost:1313/posts/syntax-highlighting-test/</link>
+		<pubDate>Wed, 28 Jun 2023 17:02:56 +0545</pubDate>
+		
+		<guid>localhost:1313/posts/syntax-highlighting-test/</guid>
+		<description>&lt;h3 id=&#34;indexhtml&#34;&gt;index.html&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&amp;lt;!--comment --&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;html&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;head&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;title&lt;/span&gt;&amp;gt;Hello World&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;title&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;head&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;body&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;p&lt;/span&gt;&amp;gt;Hello, World!&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;p&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;body&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;html&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;appcss&#34;&gt;app.css&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;/* Comment */&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;body&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;background-color&lt;/span&gt;: rgb(&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;64&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;255&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;p&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;color&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;white&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;text-align&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;center&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;appjs&#34;&gt;app.js&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// Comment
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;document.&lt;span style=&#34;color:#a6e22e&#34;&gt;getElementById&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;main&amp;#34;&lt;/span&gt;).&lt;span style=&#34;color:#a6e22e&#34;&gt;innerHtml&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hello, World!&amp;#34;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;mainc&#34;&gt;main.c&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-c&#34; data-lang=&#34;c&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// Comment
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#include&lt;/span&gt; &lt;span style=&#34;color:#75715e&#34;&gt;&amp;lt;stdio.h&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;printf&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hello, World!&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;maincpp&#34;&gt;main.cpp&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// Comment
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#include&lt;/span&gt; &lt;span style=&#34;color:#75715e&#34;&gt;&amp;lt;iostream&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  std&lt;span style=&#34;color:#f92672&#34;&gt;::&lt;/span&gt;cout &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hello, World!&amp;#34;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;testjson&#34;&gt;test.json&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;firstName&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;John&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;lastName&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Doe&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;age&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;13&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;hobby&amp;#34;&lt;/span&gt;: [&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;programmer&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;gamer&amp;#34;&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;cmakeliststxt&#34;&gt;CMakelists.txt&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-cmake&#34; data-lang=&#34;cmake&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Comment
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;cmake_minimum_required (&lt;span style=&#34;color:#e6db74&#34;&gt;VERSION&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;2.8.11&lt;/span&gt;)&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;project (&lt;span style=&#34;color:#e6db74&#34;&gt;HELLO&lt;/span&gt;)&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;add_subdirectory (&lt;span style=&#34;color:#e6db74&#34;&gt;Hello&lt;/span&gt;)&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;add_subdirectory (&lt;span style=&#34;color:#e6db74&#34;&gt;Demo&lt;/span&gt;)&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;makefile&#34;&gt;Makefile&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-make&#34; data-lang=&#34;make&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Comment
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;hello&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	@echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hello, World&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;readmemd&#34;&gt;README.md&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-md&#34; data-lang=&#34;md&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&amp;lt;!-- Comment --&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# Thanks
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;appxml&#34;&gt;App.xml&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-xml&#34; data-lang=&#34;xml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&amp;lt;!-- Comment --&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;UTF-8&amp;#34;?&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;note&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;to&amp;gt;&lt;/span&gt;John Doe&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;/to&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;from&amp;gt;&lt;/span&gt;Gunic&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;/from&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;heading&amp;gt;&lt;/span&gt;Programming&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;/heading&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;Program&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;/note&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;yandsql&#34;&gt;yand.sql&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sql&#34; data-lang=&#34;sql&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;-- Comment
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;SELECT&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;FROM&lt;/span&gt; Students;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;scriptsh&#34;&gt;script.sh&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Comment&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo pacman -S hugo
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;scriptlua&#34;&gt;script.lua&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-lua&#34; data-lang=&#34;lua&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;-- Comment&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Hello, world!&amp;#39;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;mainrs&#34;&gt;main.rs&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-rust&#34; data-lang=&#34;rust&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;fn&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;// Comment
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    println!(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hello World!&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+	</item>
+	
+	<item>
+		<title>General Test</title>
+		<link>localhost:1313/posts/general-test/</link>
+		<pubDate>Tue, 27 Jun 2023 17:02:56 +0545</pubDate>
+		
+		<guid>localhost:1313/posts/general-test/</guid>
+		<description>&lt;h1 id=&#34;heading-1&#34;&gt;Heading 1&lt;/h1&gt;
+&lt;h2 id=&#34;heading-2&#34;&gt;Heading 2&lt;/h2&gt;
+&lt;h3 id=&#34;heading-3&#34;&gt;Heading 3&lt;/h3&gt;
+&lt;h2 id=&#34;custom-id&#34;&gt;Heading 2 with id&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;text-decoration&#34;&gt;Text Decoration&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;This is Italic&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;This is Bold&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong&gt;This is Bold and italic&lt;/strong&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;del&gt;This is deleated&lt;/del&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;quote--footnote&#34;&gt;Quote &amp;amp; footnote&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This is block quote&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Neasted&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Neasted block quote&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;This is Footnote text 1. &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;This is Footnote text 2. &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;lists&#34;&gt;Lists&lt;/h2&gt;
+&lt;h3 id=&#34;unordered&#34;&gt;Unordered&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;This is unordered list 1&lt;/li&gt;
+&lt;li&gt;This is unordered list 2&lt;/li&gt;
+&lt;li&gt;This is unordered list 3&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;ordered&#34;&gt;Ordered&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;This is ordered list 1&lt;/li&gt;
+&lt;li&gt;This is ordered list 2&lt;/li&gt;
+&lt;li&gt;This is ordered list 3&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;checkbox&#34;&gt;Checkbox&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; This is to be done&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; This is completed&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;dd-list&#34;&gt;DD list&lt;/h3&gt;
+&lt;dl&gt;
+&lt;dt&gt;term&lt;/dt&gt;
+&lt;dd&gt;definition&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;media&#34;&gt;Media&lt;/h2&gt;
+&lt;h3 id=&#34;link&#34;&gt;Link&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://example.org&#34;&gt;test link&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;image&#34;&gt;Image&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/BigBuckBunny.jpg&#34; alt=&#34;alt text&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;video&#34;&gt;Video&lt;/h3&gt;
+
+
+&lt;video controls&gt;
+    &lt;source src=&#34;http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4&#34; type=&#34;video/mp4&#34;&gt;
+    Your browser does not support HTML video.
+&lt;/video&gt;
+
+
+&lt;h3 id=&#34;video-embeed&#34;&gt;Video embeed&lt;/h3&gt;
+&lt;h2 id=&#34;hahahugoshortcodes1hbhb&#34;&gt;
+
+    &lt;iframe title=&#34;Video&#34; allowfullscreen src=&#34;https://yewtu.be/embed/aqz-KE-bpKQ&#34;&gt;&lt;/iframe&gt;
+
+
+&lt;/h2&gt;
+&lt;h2 id=&#34;table&#34;&gt;Table&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Syntax&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Header&lt;/td&gt;
+&lt;td&gt;Title&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Paragraph&lt;/td&gt;
+&lt;td&gt;Text&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;This is the footnote 1.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;This is the footnote 2.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Hello World</title>
+		<link>localhost:1313/posts/hello-world/</link>
+		<pubDate>Sat, 24 Jun 2023 17:02:56 +0545</pubDate>
+		
+		<guid>localhost:1313/posts/hello-world/</guid>
+		<description>&lt;p&gt;Hello, World!&lt;/p&gt;
+</description>
+	</item>
+	
+	</channel>
+</rss>

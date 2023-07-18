@@ -1,0 +1,36 @@
+baseURL = 'https://tamine.netlify.app/'
+languageCode = 'en-us'
+title = 'Kouosi Tsuamine'
+
+[params]
+    favicon = "/favicon.ico"
+    
+    #list items
+    authorsinlist = true
+
+    #footer items
+    nextprev = true
+    taglist = true
+    showrss = true
+
+[sitemap]
+    changefreq = 'monthly'
+    filename = 'sitemap.xml'
+    priority = 0.5
+[permalinks]
+    posts = '/posts/:title/'
+[markup]
+    [markup.highlight]
+        anchorLineNos = false
+        codeFences = true
+        guessSyntax = false
+        hl_Lines = ''
+        hl_inline = false
+        lineAnchors = ''
+        lineNoStart = 1
+        lineNos = false
+        lineNumbersInTable = true
+        noClasses = true
+        noHl = false
+        style = 'monokai'
+        tabWidth = 4

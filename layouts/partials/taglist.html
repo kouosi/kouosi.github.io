@@ -1,0 +1,11 @@
+{{- if isset .Params "tags" }}
+{{- $tagsLen := len .Params.tags }}
+{{- if gt $tagsLen 0 }}
+<div class=taglist>
+    Tags: {{- range $k, $v := .Params.tags }}
+    {{- $url := printf "tags/%s" (. | urlize | lower) }}
+    <a href="{{ $url | absURL }}">{{ . | title }}</a>{{- if lt $k (sub $tagsLen 1) }}, {{ end -}}
+    {{ end -}}
+</div>
+{{- end -}}
+{{ end -}}

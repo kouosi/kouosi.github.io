@@ -1,0 +1,13 @@
+<head>
+    <title>{{ if not .IsHome }}{{ .Title | title }} | {{ end }}{{ .Site.Title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#222222">
+    <meta name="description" content="{{ with .Params.description }}{{ . }}{{ else }}{{ .Summary }}{{ end }}">
+    {{ if isset .Params "tags" }}<meta name="keywords" content="{{ with .Params.tags }}{{ delimit . ", " }}{{ end }}">
+	{{ end -}}
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <link rel='alternate' type='application/rss+xml' title="{{ .Site.Title }} RSS" href='/rss.xml'>
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link rel="icon" href="/favicon.ico">
+</head>

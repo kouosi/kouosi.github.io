@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language }}">
+{{ partial "head.html" . }}
+<body>
+	<h1>{{ .Title }}</h1>
+	<hr>
+	<main>
+		<article>
+            <p>It seems like the link you followed is either not valid or expired.</p>
+            <p>This my be due to</p>
+            <ol>
+                <li>Page no longer exist.</li>
+                <li>Internal error.</li>
+                <li>Broken url or wrong url.</li>
+            </ol>
+            <p style="text-align: center"><a href="/">&lt;- Go back home</a></p>
+		</article>
+	</main>
+	{{ partial "footer.html" . }}
+</body>
+
+</html>

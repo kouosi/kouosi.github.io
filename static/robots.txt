@@ -1,0 +1,9 @@
+# robots.txt
+
+User-agent: Mediapartners-Google*
+Disallow:
+
+User-agent: *
+Disallow: 
+
+Sitemap: https://tamine.netlify.app/sitemap.xml
