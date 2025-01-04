@@ -6,19 +6,39 @@
     {{ if not .IsHome }}
     {{ $_site_title_ = printf "%s | %s" .Title site.Title }}
     {{ end }}
-    <title>{{- $_site_title_ -}}</title>
-    <meta charset="utf-8">
-    <meta name="theme-color" content="#222222">
-    <!-- SEO -->
     {{ $_description_ := site.Params.defaultDescription }}
     {{ if .Params.description }}
     {{ $_description_ = .Params.description }}
     {{ else if .Summary }}
     {{ $_description_ = .Summary | plainify }}
     {{ end }}
+    <title>{{- $_site_title_ -}}</title>
+    <meta charset="utf-8">
+    <link rel="canonical" href="{{ .Site.BaseURL }}">
+    <meta name="theme-color" content="#222222">
+    <!-- Opengraph -->
+    <!-- Opengraph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ .Permalink }}">
+    <meta property="og:site_name" content="{{ .Site.Title }}">
+    <meta property="og:title" content="{{ .Title }}">
+    <meta property="og:description" content="{{ .Params.description | default .Summary }}">
+    <meta property="og:image" content="{{ "/avatar.webp" | absURL }}">
+    <meta property="og:image:alt" content="My Profile Picture">
+    <meta property="og:image:type" content="image/webp">
+    <meta property="og:image:width" content="225">
+    <meta property="og:image:height" content="225">
+    <meta property="og:locale" content="en_US">
+    {{ if .IsPage }}
+      <meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z" }}">
+      <meta property="article:modified_time" content="{{ .Lastmod.Format "2006-01-02T15:04:05Z" }}">
+    {{ end }}
+
+    <!-- SEO -->
     <meta name="description" content="{{ $_description_ }}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content='{{ if .Keywords }}{{ delimit .Keywords "," }}{{ else }}Inogen Limbu{{ end }}'>
+    <meta name="author" content="{{ if site.Params.author }}{{ site.Params.author }}{{ else }}Inogen Limbu{{ end }}">
     <meta http-equiv="x-ua-compatible" content="IE=edge">
     <meta name="googlebot" content="notranslate">
     <script type="application/ld+json">
