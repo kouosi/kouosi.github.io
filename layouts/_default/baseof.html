@@ -8,12 +8,49 @@
     {{ end }}
     <title>{{- $_site_title_ -}}</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#222222">
-    <meta name="description"
-        content="{{ if .Params.description }}{{ .Params.description }}{{ else if .Summary }}{{ .Summary | plainify }}{{ else }}{{ site.Params.defaultDescription }}{{ end }}">
+    <!-- SEO -->
+    {{ $_description_ := site.Params.defaultDescription }}
+    {{ if .Params.description }}
+    {{ $_description_ = .Params.description }}
+    {{ else if .Summary }}
+    {{ $_description_ = .Summary | plainify }}
+    {{ end }}
+    <meta name="description" content="{{ $_description_ }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content='{{ if .Keywords }}{{ delimit .Keywords "," }}{{ else }}Inogen Limbu{{ end }}'>
     <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="googlebot" content="notranslate">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "{{ $_site_title_ | safeJS }}",
+        "description": "{{ $_description_ | safeJS }}",
+        "url": "{{ .Permalink | safeJS }}",
+        "mainEntity": {
+            "@type": "Thing",
+            "name": "Main topic or entity of the page",
+            "description": "{{ $_description_ }}"
+        },
+        "author": {
+            "@type": "Person",
+            "name": "{{ site.Params.authorName | default "Inogen Limbu" | safeJS }}"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "{{ site.Params.organizationName | default "Inogen Limbu" | safeJS }}",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "{{ site.BaseURL | safeJS }}{{ site.Params.favicon | default "/logo.png" | safeJS }}"
+            }
+        },
+        "datePublished": "{{ .Date.Format "2006-01-02" }}",
+        "dateModified": "{{ .Lastmod.Format "2006-01-02" }}"
+    }
+    </script>
+
+    <!-- Site -->
     <link rel="alternate" type="application/rss+xml" title="Kouosi Tsuamine RSS" href="/rss.xml">
     {{- $style := resources.Get "css/style.css" | resources.Minify | fingerprint }}
     <link rel="stylesheet" href="{{ $style.RelPermalink }}" media="all">
