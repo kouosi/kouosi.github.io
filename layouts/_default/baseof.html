@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{ .Lang }}">
+<html lang="{{ .Lang }}" dir="ltr">
 
 <head>
     {{ $_site_title_ := site.Title }}
@@ -16,24 +16,23 @@
     <meta charset="utf-8">
     <link rel="canonical" href="{{ .Site.BaseURL }}">
     <meta name="theme-color" content="#222222">
-    <!-- Opengraph -->
+    <meta name="start" href="/">
     <!-- Opengraph -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ .Permalink }}">
     <meta property="og:site_name" content="{{ .Site.Title }}">
     <meta property="og:title" content="{{ .Title }}">
     <meta property="og:description" content="{{ .Params.description | default .Summary }}">
-    <meta property="og:image" content="{{ "/avatar.webp" | absURL }}">
+    <meta property="og:image" content="{{ " /avatar.webp" | absURL }}">
     <meta property="og:image:alt" content="My Profile Picture">
     <meta property="og:image:type" content="image/webp">
     <meta property="og:image:width" content="225">
     <meta property="og:image:height" content="225">
     <meta property="og:locale" content="en_US">
     {{ if .IsPage }}
-      <meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z" }}">
-      <meta property="article:modified_time" content="{{ .Lastmod.Format "2006-01-02T15:04:05Z" }}">
+    <meta property="article:published_time" content="{{ .Date.Format " 2006-01-02T15:04:05Z" }}">
+    <meta property="article:modified_time" content="{{ .Lastmod.Format " 2006-01-02T15:04:05Z" }}">
     {{ end }}
-
     <!-- SEO -->
     <meta name="description" content="{{ $_description_ }}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -70,11 +69,20 @@
     }
     </script>
 
-    <!-- Site -->
-    <link rel="alternate" type="application/rss+xml" title="Kouosi Tsuamine RSS" href="/rss.xml">
+    <!-- Site Resources -->
+    <link rel="alternate" type="application/rss+xml" title="Kouosi Tsuamine RSS" href="/index.xml">
     {{- $style := resources.Get "css/style.css" | resources.Minify | fingerprint }}
-    <link rel="stylesheet" href="{{ $style.RelPermalink }}" media="all">
-    <link rel="icon" href="/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="{{ $style.RelPermalink }}" media="all">
+    <!-- Site Icons -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="icon" sizes="16x16"   href="/icons/icon_16.png">
+    <link rel="icon" sizes="32x32"   href="/icons/icon_32.png">
+    <link rel="icon" sizes="64x64"   href="/icons/icon_64.png">
+    <link rel="icon" sizes="128x128" href="/icons/icon_128.png">
+    <link rel="icon" sizes="192x192" href="/icons/icon_192.png">
+    <link rel="icon" sizes="256x256" href="/icons/icon_256.png">
+    <link rel="icon" sizes="512x512" href="/icons/icon_512.png">
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
