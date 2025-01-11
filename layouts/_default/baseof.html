@@ -19,7 +19,7 @@
     <meta name="start" href="/">
     <!-- Opengraph -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="{{ .Permalink }}">
+    <meta property="og:url" content="{{ .RelPermalink | absURL }}">
     <meta property="og:site_name" content="{{ .Site.Title }}">
     <meta property="og:title" content="{{ .Title }}">
     <meta property="og:description" content="{{ .Params.description | default .Summary }}">
@@ -46,7 +46,7 @@
         "@type": "WebPage",
         "name": "{{ $_site_title_ | safeJS }}",
         "description": "{{ $_description_ | safeJS }}",
-        "url": "{{ .Permalink | safeJS }}",
+        "url": "{{ .RelPermalink | absURL | safeJS }}",
         "mainEntity": {
             "@type": "Thing",
             "name": "Main topic or entity of the page",
@@ -61,7 +61,7 @@
             "name": "{{ site.Params.organizationName | default "Inogen Limbu" | safeJS }}",
             "logo": {
                 "@type": "ImageObject",
-                "url": "{{ site.BaseURL | safeJS }}{{ site.Params.favicon | default "/logo.png" | safeJS }}"
+                "url": "{{ site.Params.favicon | default "/logo.png" | absURL | safeJS }}"
             }
         },
         "datePublished": "{{ .Date.Format "2006-01-02" }}",
