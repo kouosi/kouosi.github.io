@@ -73,6 +73,8 @@
     <link rel="alternate" type="application/rss+xml" title="Kouosi Tsuamine RSS" href="/index.xml">
     {{- $style := resources.Get "css/style.css" | resources.Minify | fingerprint }}
     <link rel="stylesheet" type="text/css" href="{{ $style.RelPermalink }}" media="all">
+    {{- $manifest := resources.Get "manifest.json" | resources.Minify }}
+    <link rel="manifest" type="text/json" href="{{ $manifest.RelPermalink }}">
     <!-- Site Icons -->
     <link rel="icon" sizes="16x16" href="/icons/icon_16.png">
     <link rel="icon" sizes="32x32" href="/icons/icon_32.png">

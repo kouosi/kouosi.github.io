@@ -1,0 +1,30 @@
+{
+    "theme_color": "#8936FF",
+    "background_color": "#2EC6FE",
+    "display": "standalone",
+    "dir": "auto",
+    "lang": "en-US",
+    "name": "Inogen Limbu",
+    "short_name": "inogen",
+    "start_url": "/",
+    "scope": "/",
+    "orientation": "any",
+    "icons": [
+        {
+            "purpose": "any",
+            "sizes": "512x512",
+            "src": "/icons/icon_512.png",
+            "type": "image/png"
+        }, {
+            "purpose": "any",
+            "sizes": "256x256",
+            "src": "/icons/icon_256.png",
+            "type": "image/png"
+        }, {
+            "purpose": "any",
+            "sizes": "128x128",
+            "src": "/icons/icon_128.png",
+            "type": "image/png"
+        }
+    ]
+}
