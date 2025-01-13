@@ -23,11 +23,12 @@
     <meta property="og:site_name" content="{{ .Site.Title }}">
     <meta property="og:title" content="{{ .Title }}">
     <meta property="og:description" content="{{ .Params.description | default .Summary }}">
-    <meta property="og:image" content="{{ "/avatar.webp" | absURL }}">
+    {{ $profile_image := resources.Get "images/avatar.webp" }}
+    <meta property="og:image" content="{{ $profile_image | absURL }}">
     <meta property="og:image:alt" content="My Profile Picture">
     <meta property="og:image:type" content="image/webp">
-    <meta property="og:image:width" content="468">
-    <meta property="og:image:height" content="468">
+    <meta property="og:image:width" content="{{ $profile_image.Width }}">
+    <meta property="og:image:height" content="{{ $profile_image.Height }}">
     <meta property="og:locale" content="en_US">
     {{ if .IsPage }}
     <meta property="article:published_time" content="{{ .Date.Format " 2006-01-02T15:04:05Z" }}">

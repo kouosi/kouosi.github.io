@@ -126,6 +126,8 @@ h1 {
     font: normal 800 2.4rem "Libre Baskerville", serif;
     text-align: center;
     margin-bottom: .5rem;
+    text-decoration: underline;
+    text-decoration-color: var(--color-main);
 }
 
 h2 {
@@ -313,6 +315,9 @@ main {
 main img {
     max-height: 12rem;
     user-select: none;
+    border: 1px solid var(--color-main);
+    background: var(--color-bg-tri);
+    border-radius: .75rem;
 }
 
 .section-content#home-intro {
@@ -497,10 +502,10 @@ a::selection {
         max-width: 100%;
         max-height: 30rem;
         height: auto;
-        width: 100%;
+        margin: 5%;
+        width: 90%;
         /* rotate: 16deg; */
         overflow: hidden;
-        padding: 1rem 4rem;
     }
 
     .section-content#home-intro {
