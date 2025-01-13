@@ -5,7 +5,7 @@
 {{ else }}
 <h1>{{ .Title }}</h1>
 
-<div class="author_tags">
+<div class="author-tags">
     {{ partial "header-author" . }}
     {{ partial "header-tags.html" . }}
 </div>
@@ -23,7 +23,7 @@
 
 {{ .Content }}
 
-{{ partial "post_nav.html" . }}
+{{ partial "post-nav.html" . }}
 
 {{ if or (not (isset .Params "commentsec")) (eq .Params.commentsec true) }}
 <hr>

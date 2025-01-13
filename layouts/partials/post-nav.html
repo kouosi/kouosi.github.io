@@ -1,16 +1,16 @@
 <hr>
 {{ if or .Next .Prev }}
-<div class="post_nav">
+<div class="post-nav">
     {{ with (where .Site.RegularPages "Section" .Section).Prev . }}
-    <a class="prev_next" title="Goto Previous {{ .Section }}" href="{{ .RelPermalink }}">
+    <a class="prev-next" title="Goto Previous {{ .Section }}" href="{{ .RelPermalink }}">
         <i class="fa fa-arrow-left"></i> Prev: {{ if gt (len .Title) 30 }}
         {{ slicestr .Title 0 30 }} ...{{ else }} {{ .Title }} {{ end }}
     </a>
     {{ end }}
 </div>
-<div class="post_nav" style="text-align: right; margin-top: .75rem">
+<div class="post-nav" style="text-align: right; margin-top: .75rem">
     {{ with (where .Site.RegularPages "Section" .Section).Next . }}
-    <a class="prev_next" title="Goto Next {{ .Section }}" href="{{ .RelPermalink }}">
+    <a class="prev-next" title="Goto Next {{ .Section }}" href="{{ .RelPermalink }}">
         Next: {{ if gt (len .Title) 30 }} {{ slicestr .Title 0 30 }} ...{{ else }}
         {{ .Title }} {{ end }} <i class="fa fa-arrow-right"></i>
     </a>
