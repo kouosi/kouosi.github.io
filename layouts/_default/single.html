@@ -25,4 +25,27 @@
 
 {{ partial "post_nav.html" . }}
 
+{{ if or (not (isset .Params "commentsec")) (eq .Params.commentsec true) }}
+<hr>
+<script>
+    let giscus = document.createElement("script");
+    Object.entries({
+        "src": "https://giscus.app/client.js",
+        "data-repo": "kouosi/kouosi.github.io",
+        "data-repo-id": "R_kgDONhDCeQ",
+        "data-category": "General",
+        "data-category-id": "DIC_kwDONhDCec4Cl6ep",
+        "data-mapping": "url",
+        "data-reactions-enabled": "0",
+        "data-emit-metadata": "0",
+        "data-input-position": "top",
+        "data-theme": "gruvbox_" + localStorage.getItem("theme"),
+        "data-lang": "en",
+        "crossorigin": "anonymous",
+        "async": "",
+    }).forEach(([key, value]) => giscus.setAttribute(key, value));
+    document.querySelector("body>main").appendChild(giscus);
+</script>
+{{ end }}
+
 {{ end }}
