@@ -4,6 +4,8 @@
     <i class="fa-solid fa-calendar-days"></i> {{ .UTC.Format "02 Jan 2006" }}
 </div>
 {{ end }}
-<br>
+<div>
+    <i class="fa-solid fa-clock"></i> {{ .ReadingTime }} min read
+</div>
 <!-- by {{ .Params.author }} -->
 <!-- {{ end -}} -->

@@ -344,6 +344,19 @@ main img {
     justify-content: space-between;
 }
 
+.author_tags>div {
+    text-align: center;
+    width: calc(100% / 3)
+}
+
+.author_tags>div:first-child {
+    text-align: left;
+}
+
+.author_tags>div:last-child {
+    text-align: right;
+}
+
 .toc {
     border: 2px dashed var(--color-main);
     padding: .5rem;
@@ -492,6 +505,11 @@ a::selection {
 
     .section-content#home-intro {
         display: block;
+    }
+
+    .author_tags>div {
+        text-align: left!important;
+        width: 100%;
     }
 }
 
