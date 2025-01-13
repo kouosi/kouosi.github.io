@@ -511,6 +511,10 @@ a::selection {
         text-align: left!important;
         width: 100%;
     }
+
+    .post_nav {
+        text-align: center!important;
+    }
 }
 
 /* portrait tablets and large phones */
