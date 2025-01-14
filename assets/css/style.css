@@ -409,6 +409,7 @@ main img {
 
 .title-and-tags {
     width: calc(100% - 16rem);
+    min-width: 12rem;
 }
 
 .post-tags {
