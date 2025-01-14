@@ -156,6 +156,13 @@ h5 {
     font: italic 600 1rem/3rem "Libre Baskerville", serif;
 }
 
+h1,
+h3,
+h4 {
+    text-decoration: underline;
+    text-decoration-color: var(--color-main);
+}
+
 blockquote {
     background: var(--color-bg-tri);
     padding: .25rem;
@@ -209,6 +216,7 @@ header {
     background: #007272;
     z-index: 10000;
     padding: .5rem;
+    width: 100%;
 }
 
 header p,
@@ -372,6 +380,69 @@ main img {
     list-style-type: "-> ";
 }
 
+.post-list {
+    margin: auto;
+    width: max-content;
+}
+
+.post-list-items:hover {
+    background: var(--color-bg-sec);
+}
+
+.post-list-items {
+    list-style: none;
+    display: flex;
+    padding: .5rem 1rem;
+    margin: 0;
+    border-radius: .5rem;
+}
+
+.post-list-items .posted-date {
+    margin-right: 1rem;
+    font-size: 1.1rem;
+    align-content: center;
+    text-align: right;
+    text-decoration: italic;
+    width: 12rem;
+    user-select: none;
+}
+
+.title-and-tags {
+    width: calc(100% - 16rem);
+}
+
+.post-tags {
+    user-select: none;
+    display: flex;
+    gap: .25rem;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.post-tags.recent-tags {
+    justify-content: center;
+}
+
+.post-tags.recent-tags .post-tags-list {
+    font-size: 1rem!important;
+}
+
+.post-tags-list {
+    background: var(--color-bg-sec);
+    border: 1px solid var(--color-main);
+    padding: 0 .5rem;
+    border-radius: .4rem;
+    font-size: .8rem;
+    text-decoration: none !important;
+}
+
+.post-link {
+    width: 100%;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
 /* Footer */
 footer {
     width: 100%;
@@ -533,5 +604,45 @@ a::selection {
         bottom: inherit;
         line-height: 1rem;
         bottom: .25rem;
+    }
+
+}
+
+
+@media (max-width: 760px) {
+    .post-list {
+        margin: 0;
+        width: 100%;
+    }
+
+    .post-list-items {
+        display: block;
+        margin: 0;
+        max-width: calc(100% - 2rem);
+    }
+
+    .post-list-items .posted-date {
+        text-decoration: italic;
+    }
+
+    .post-link {
+        display: block;
+        text-align: left;
+        text-wrap: wrap;
+    }
+
+    .title-and-tags {
+        width: 100%;
+    }
+
+    .post-tags-list {
+        font-size: 1rem;
+        margin-bottom: .1rem;
+    }
+
+    .post-tags {
+        gap: .2rem;
+        flex-wrap: wrap;
+        justify-content: left;
     }
 }

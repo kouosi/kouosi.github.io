@@ -1,6 +1,9 @@
-{{ range $name, $taxonomy := .Site.Taxonomies.tags }} {{ $cnt := .Count }}
-{{ with $.Site.GetPage (printf "/tags/%s" $name) }}
-<li><a href={{ .RelPermalink }} title="All {{$cnt}} pages with tag {{$name}}">{{$name}}</a> &mdash; {{$cnt}} Posts</li>
-{{ end }}
-{{ end }}
-<li><a href="/tags" title="See all tags used in posts">See all...</a></li>
+<div class="post-tags recent-tags">
+    {{ range $name, $taxonomy := .Site.Taxonomies.tags }} {{ $cnt := .Count }}
+    {{ with $.Site.GetPage (printf "/tags/%s" $name) }}
+    <a href={{ .RelPermalink }} class="post-tags-list" title="All {{ $cnt }} pages with tag: {{$name}}">
+        <i class="fa-solid fa-tag"></i> {{ $name }}: {{ $cnt }}</a>
+    {{ end }}
+    {{ end }}
+    <a href="/tags" class="post-tags-list" title="See all tags used in posts">See all...</a>
+</div>

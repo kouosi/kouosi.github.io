@@ -1,10 +1,18 @@
-{{ range where .Site.RegularPages "Section" "posts" }}
-<li title='{{ .Date.Format "Posted on 2006 Jan 02, 04:05" }}'>
-    <time datetime="{{ .Date.UTC.Format " 2006-01-02T15:04:05Z07:00" }}">
-        {{ .Date.Format "2006 Jan 02" }}
-    </time>
-    &mdash;
-    <a style="padding-left: 0;" href="{{ .RelPermalink }}">{{ .Title }}</a>
-</li>
-{{ end }}
-<li><a href="/posts" title="See all posts archives">See all...</a></li>
+<ul class="post-list">
+    {{ range where .Site.RegularPages "Section" "posts" }}
+    <li class="post-list-items" title='{{ .Date.Format "Posted on 2006 Jan 02, 04:05" }}'>
+        <time class="posted-date" datetime="{{ .Date.UTC.Format " 2006-01-02T15:04:05Z07:00" }}">
+            {{ .Date.Format "January 02, 2006" }}
+        </time>
+        <div class="title-and-tags">
+            <a class="post-link" style="padding-left: 0;" href="{{ .RelPermalink }}">{{ .Title }}</a>
+            <div class="post-tags">
+                {{ range .Params.tags }}
+                <a class="post-tags-list" href="/tags/{{ .}}"><i class="fa-solid fa-tag"></i> {{.}}</a>
+                {{ end }}
+            </div>
+        </div>
+    </li>
+    {{ end }}
+    <li class="post-list-items"><a href="/posts" class="post-link" title="See all posts archives">See all...</a></li>
+</ul>

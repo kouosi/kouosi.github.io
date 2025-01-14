@@ -4,7 +4,7 @@
     <div class="section-content" id="home-intro">
         {{ $profile_image := resources.Get "images/avatar.webp"  }}
         <img src="data:image/webp;base64,{{ $profile_image.Content | base64Encode }}" alt="My Profile Pciture"
-            title="Kouosi Tsuamine" width="192" height="192">
+            title="Kouosi Tsuamine" width="192" height="192" draggable="false">
         <div>
             <p> My name is <b title="My name">Inogen Limbu</b>. I am a computer enthusiast from
                 Nepal, a small country located
@@ -30,8 +30,8 @@
     {{ partial "recent-tags.html" . }}
 </ul>
 
-<h2>Projects</h2>
-<ul>
-    {{ partial "recent-projects.html" . }}
-</ul>
+<!-- <h2>Projects</h2> -->
+<!-- <ul> -->
+<!--     {{ partial "recent-projects.html" . }} -->
+<!-- </ul> -->
 {{ end }}
