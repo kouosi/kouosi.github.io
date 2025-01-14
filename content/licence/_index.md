@@ -5,7 +5,7 @@ title = 'License'
 ## Source Code License
 The Source code of this website is License under `ISC`
 ```plantext
-Copyright (C) 2024 by Kouosi Takayama <kouosi@tuta.io>
+Copyright (C) 2024 by Kouosi <kouosi@tuta.io>
 
 Permission to use, copy, modify, and distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
