@@ -93,14 +93,24 @@ pre {
     border: 1px solid var(--color-main-alt);
     background-color: var(--color-code-bg) !important;
     padding: .75rem;
-    overflow: scroll;
+    overflow: auto;
     max-height: 30rem;
+    margin-bottom: .5rem;
 }
 
 code {
     white-space: pre-wrap !important;
     font-size: 1rem;
     color: var(--color-code-fg);
+}
+
+p code {
+    white-space: pre-wrap !important;
+    font-size: 1rem;
+    background: var(--color-bg-tri);
+    colro: var(--color-fg);
+    border-radius: .25rem;
+    padding: 0 .25rem 0 .25rem;
 }
 
 code span {
