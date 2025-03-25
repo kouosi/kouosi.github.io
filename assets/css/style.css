@@ -126,7 +126,7 @@ h1 {
     font: normal 800 2.4rem "Libre Baskerville", serif;
     text-align: center;
     margin-bottom: .5rem;
-    text-decoration: underline;
+    text-decoration: none !important;;
     text-decoration-color: var(--color-main);
 }
 
