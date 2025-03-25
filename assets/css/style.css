@@ -32,7 +32,7 @@
     --color-fg-sec: #cfcfcf;
     --color-fg-tri: #aaaaaa;
     --color-link: #005555;
-    --color-link-hover: #000000;
+    --color-link-hover: #dddd55;
     --color-sec: #00aaaa;
     --color-code-bg: #333333;
     --color-code-fg: #ffdddd;
@@ -108,7 +108,7 @@ p code {
     white-space: pre-wrap !important;
     font-size: 1rem;
     background: var(--color-bg-tri);
-    colro: var(--color-fg);
+    color: var(--color-fg);
     border-radius: .25rem;
     padding: 0 .25rem 0 .25rem;
 }
