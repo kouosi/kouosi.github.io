@@ -32,7 +32,7 @@
     --color-fg-sec: #cfcfcf;
     --color-fg-tri: #aaaaaa;
     --color-link: #005555;
-    --color-link-hover: #dddd55;
+    --color-link-hover: #aaaa22;
     --color-sec: #00aaaa;
     --color-code-bg: #333333;
     --color-code-fg: #ffdddd;
@@ -228,6 +228,9 @@ header {
     padding: .5rem;
     width: 100%;
 }
+header a:hover {
+    color: #dddd55; /* FIXME: For now hardcode it */
+}
 
 header p,
 header span {
@@ -391,12 +394,7 @@ main img {
 }
 
 .post-list {
-    margin: auto;
-    width: max-content;
-}
-
-.post-list-items:hover {
-    background: var(--color-bg-sec);
+    width: 100%;
 }
 
 .post-list-items {
@@ -407,13 +405,18 @@ main img {
     border-radius: .5rem;
 }
 
+.post-list-items:hover {
+    background: var(--color-bg-sec);
+}
+
+
 .post-list-items .posted-date {
     margin-right: 1rem;
     font-size: 1.1rem;
     align-content: center;
     text-align: right;
     text-decoration: italic;
-    width: 12rem;
+    width: 18rem;
     user-select: none;
 }
 
@@ -629,7 +632,7 @@ a::selection {
     .post-list-items {
         display: block;
         margin: 0;
-        max-width: calc(100% - 2rem);
+        max-width: 100% - 2rem;
     }
 
     .post-list-items .posted-date {
