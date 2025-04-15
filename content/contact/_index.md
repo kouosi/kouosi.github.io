@@ -5,7 +5,7 @@ title = 'Contact Me'
 Thank you for visiting my website! I'm always looking forward to connect with like-minded individuals, collaborate on exciting projects, or simply answer your questions. Feel free to get in touch using the options below.
 
 ### How to Reach Me
-- **Email**: emailme@inogen.com.np
+- **Email**: contact@inogen.com.np
 - **Phone**: [Available on request]
 - **GitHub**: [kouosi@github](https://github.com/kouosi)
 - **LinkedIn**: [kouosi@linkedin](https://np.linkedin.com/in/inogen-limbu-9669b4342)
