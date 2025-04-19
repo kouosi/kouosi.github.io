@@ -22,7 +22,7 @@
     --color-table: #dddddd;
 }
 
-[data-theme="light"] {
+html[data-theme="light"] {
     --color-main: #00aaaa;
     --color-main-alt: #00a0f8;
     --color-bg: #eeeeee;
