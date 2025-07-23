@@ -1,7 +1,7 @@
 +++
 title = 'Wayland Emoji Picker'
 date = '2025-03-25T23:25:45+05:45'
-draft = false
+draft = true
 description = 'Write your own simple emoji picker for wayland'
 author = "Inogen Limbu"
 tags = ["code", "tools"]
