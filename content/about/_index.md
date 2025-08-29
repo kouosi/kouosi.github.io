@@ -2,21 +2,13 @@
 title = 'About Me'
 +++
 
-Hi, I’m Inogen Limbu. And this is my little website in the corner of Internet. I am from Nepal which is a small but beautiful landlocked country located between China and India.
+Hi, My name is **Inogen Limbu**. I am a computer enthusiast from Nepal, a small country located between China and India. I am currently pursuing a Bachelor's Degree in Electrical Engineering from Tribhuvan University, Nepal.
 
-## What I do?
-To be fair I and a weeb with little knowledge about world but you can expect following things from me
-- Linux server administration
-- Some c/c++ programming
-- POSIX scripting & bash
-- Web designing
+My primary interests include low-level systems programming, Embedded Systems, PCB designing as well as Autonomous robotics. I have also worked on several robotics projects. In my free time I also read manga and watch anime.
 
 ## Hobby?
-Nothing special but some of them are
-- Unix Ricing
+- [Unix Ricing](https://igwiki.lyci.de//wiki/GNU/Linux_ricing)
+- Reading Manga
 - Watching Anime
-- Kernel development
-- Web browser development
-- Compilers
-- Game dev
+- [zig programming](https://ziglang.org/)
 - Electronics

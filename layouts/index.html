@@ -1,22 +1,9 @@
 {{ define "main" }}
 <div class="intro">
-    <h2>Welcome to My website!</h2>
-    <div class="section-content" id="home-intro">
-        {{ $profile_image := resources.Get "images/avatar.webp"  }}
-        <img src="data:image/webp;base64,{{ $profile_image.Content | base64Encode }}" alt="My Profile Pciture"
-            title="Inogen Limbu" width="192" height="192" draggable="false">
-        <div>
-            <p>
-                My name is <b title="My name">Inogen Limbu</b>. I am a computer enthusiast from
-                Nepal, a small country located between China and India. I am currently pursuing a
-                Bachelor's Degree in Electrical Engineering from Tribhuvan University, Nepal.
-            </p>
-            <p>
-                My primary interests include low-level systems programming, Embedded Systems, PCB
-                designing as well as Autonomous robotics. I have also worked on several robotics
-                projects. In my free time I also read manga and watch anime.</p>
-        </div>
-    </div>
+    <!-- <h2>Welcome to My website!</h2> -->
+    <!-- <div class="section-content" id="home-intro"> -->
+    <!-- </div> -->
+    <img src="/pics/welcome.gif" alt="Welcome image">
 </div>
 
 <h2>Recent Posts</h2>

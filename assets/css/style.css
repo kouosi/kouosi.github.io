@@ -334,11 +334,10 @@ main {
 }
 
 main img {
-    max-height: 12rem;
+    max-width: 100%;
     user-select: none;
-    border: 1px solid var(--color-main);
-    background: var(--color-bg-tri);
-    border-radius: .75rem;
+    display: block;
+    margin: auto;
 }
 
 .section-content#home-intro {

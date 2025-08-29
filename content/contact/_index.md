@@ -7,6 +7,7 @@ Thank you for visiting my website! I'm always looking forward to connect with li
 ### How to Reach Me
 - **Email**: contact@inogen.com.np
 - **Phone**: [Available on request]
+- **Codeberg**: [kouosi@codeberg](https://codeberg.org/kouosi)
 - **GitHub**: [kouosi@github](https://github.com/kouosi)
 - **LinkedIn**: [kouosi@linkedin](https://np.linkedin.com/in/inogen-limbu-9669b4342)
 
