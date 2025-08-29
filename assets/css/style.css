@@ -484,6 +484,14 @@ footer p {
     padding: .25rem 1rem;
 }
 
+#moe-counter {
+    width: 100%;
+    max-width: 24rem;
+    display: flex;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
 .prev-next,
 #back-to-top {
     text-decoration: none !important;
